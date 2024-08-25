@@ -1,48 +1,60 @@
 <footer class="footer-section">
-      <div class="container">
-        <div class="col-md-6">
-          <div class="w-10/12 mx-auto">
+    <div class="container">
+        <div class="col-md-6 cols fade-in">
             <div>
-              <img
-                src="{{asset('assets/Images/Logo/Logo-exim.png')}}"
-                alt=""
-                srcset=""
-                class="footerLogoSize"
-              />
+                <div class="logo-image fade-in delay-1">
+                    <img src="{{asset('assets/Images/Logo/Exim white.png')}}" alt="" srcset="" />
+                </div>
+                <div class="fade-in delay-2">
+                    <p>
+                        EXIM Clearing & Forwarding LLC is a leading international
+                        freight forwarder, dedicated to providing comprehensive
+                        logistics solutions to businesses around the world.
+                    </p>
+                </div>
+                <div class="icons-colors fade-in delay-3">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
             </div>
-            <div>
-              <p>
-                We are eager to discuss how EXIM can support <br />
-                your logistics needs and contribute to your business success.
-              </p>
-            </div>
-            <div class="icons-colors">
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-twitter"></i>
-            </div>
-          </div>
         </div>
-        <div class="col-md-6 center-align">
-          <div>
-            <h1>Get In Touch</h1>
-            <p class="flex items-center">
-              <i class="bi bi-geo-alt-fill"></i>
-              DUBAI - Akshya Nagar 1st Block 1st Cross, Rammurthy nagar - 560016
-              <br />
-              <span style="margin-left: 29px">
-                UAE - Puerta 907 Polígono Guillermo Bustamante, 11, Ponferrada,
-                Cbr 5402
-              </span>
-            </p>
-            <p></p>
-            <p class="flex items-center">
-              <i class="bi bi-phone-fill"></i>+97142823411
-            </p>
-            <p class="flex items-center">
-              <i class="bi bi-envelope"></i>info@exim.ae
-            </p>
-          </div>
+        <div class="col-md-6 fade-in delay-1">
+            <div class="center-align">
+                <div class="get-in-touch fade-in delay-2">
+                    <h1>Get In Touch</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li class="fade-in delay-3">
+                            <div>
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                Khansaheb Warehouse No.3, Al Khabisi, Deira, Dubai-UAE
+                            </div>
+                        </li>
+                        <li class="fade-in delay-4">
+                            <div>
+                                <i class="bi bi-phone-fill"></i>
+                            </div>
+                            <div>+971 4282 3411</div>
+                        </li>
+                        <li class="fade-in delay-5">
+                            <div>
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div>info@exim.ae</div>
+                        </li>
+                        <li class="fade-in delay-6">
+                            <div>
+                                <i class="bi bi-browser-chrome"></i>
+                            </div>
+                            <div>www.exim.ae</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </footer>
+    </div>
+</footer>
