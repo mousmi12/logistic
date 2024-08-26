@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const banners = document.querySelectorAll('.banner-section');
     const scrollDuration = 5000; // Time in milliseconds for each scroll
     let currentIndex = 0;
-
+  
     function scrollToNextBanner() {
       currentIndex = (currentIndex + 1) % banners.length;
       const nextBanner = banners[currentIndex];
@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         behavior: 'smooth'
       });
     }
-
+  
     setInterval(scrollToNextBanner, scrollDuration);
   });
 
 
+  

@@ -295,7 +295,7 @@
                     </div>
                     <div class="fade-in delay-3">
                         <button><i class="bi bi-facebook"></i> EXIM</button>
-                        <button><i class="bi bi-instagram"></i>exim</button>
+                        <button style="background-color: rgb(43, 45, 66);"><i class="bi bi-instagram"></i>exim</button>
                     </div>
                 </div>
             </div>
@@ -364,25 +364,7 @@
     @include('footer')
     @include('js')
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const elements = document.querySelectorAll('.fade-in');
 
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('loaded');
-                    }
-                });
-            }, {
-                threshold: 0.1
-            });
-
-            elements.forEach(element => {
-                observer.observe(element);
-            });
-        });
-    </script>
 </body>
 
 </html>
