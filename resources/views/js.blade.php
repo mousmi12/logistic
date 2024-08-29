@@ -20,4 +20,5 @@
                 observer.observe(element);
             });
         });
+
     </script>

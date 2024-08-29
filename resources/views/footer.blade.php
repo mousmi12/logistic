@@ -15,7 +15,7 @@
                 <div class="icons-colors fade-in delay-3">
                     <i class="bi bi-facebook"></i>
                     <i class="bi bi-instagram"></i>
-                    <i class="bi bi-twitter"></i>
+                    <!-- <i class="bi bi-twitter"></i> -->
                 </div>
             </div>
         </div>
@@ -31,7 +31,8 @@
                                 <i class="bi bi-geo-alt-fill"></i>
                             </div>
                             <div>
-                                Khansaheb Warehouse No.3, Al Khabisi, Deira, Dubai-UAE
+                            Office 513, 5th Floor, Al Fattan Plaza, Airport Road, <br />
+                            Garhoud, Dubai Next IBIS Styles Hotel
                             </div>
                         </li>
                         <li class="fade-in delay-4">

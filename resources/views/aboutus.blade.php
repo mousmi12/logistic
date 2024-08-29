@@ -11,7 +11,7 @@
 
     <section>
         <div class="aboutUs">
-            <img src="{{asset('assets/Images/who we are/Img-1.jpg')}}" alt="" srcset="" />
+            <img src="{{asset('assets/Images/about/Img-1.jpg')}}" alt="" srcset="" />
             <div class="wrapper">
                 <div class="container">
                     <div class="about-content">
@@ -50,10 +50,10 @@
             <div class="col-md-6 cols">
                 <div class="image-positions">
                     <div class="imag-item-one">
-                        <img src="{{asset('assets/Images/who we are/Img-3.jpg')}}" alt="Image 1" />
+                        <img src="{{asset('assets/Images/about/Img-3.jpg')}}" alt="Image 1" />
                     </div>
                     <div class="imag-item-two">
-                        <img src="{{asset('assets/Images/who we are/img-2.jpg')}}" alt="Image 2" />
+                        <img src="{{asset('assets/Images/about/img-2.jpg')}}" alt="Image 2" />
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                 </p>
             </div>
             <div class="mission-image">
-                <img src="{{asset('assets/Images/who we are/img-4.jpg')}}" alt="" srcset="" />
+                <img src="{{asset('assets/Images/about/img-4.jpg')}}" alt="" srcset="" />
             </div>
         </div>
     </section>
@@ -93,7 +93,7 @@
                         <div class="cols-container">
                             <div class="items-image">
                                 <img
-                                    src="{{asset('assets/Images/who we are/integration.svg')}}"
+                                    src="{{asset('assets/Images/about/integration.svg')}}"
                                     alt=""
                                     srcset="" />
                             </div>
@@ -112,7 +112,7 @@
                         <div class="cols-container">
                             <div class="items-image">
                                 <img
-                                    src="{{asset('assets/Images/who we are/customer-target.svg')}}"
+                                    src="{{asset('assets/Images/about/customer-target.svg')}}"
                                     alt=""
                                     srcset="" />
                             </div>
@@ -128,7 +128,7 @@
                         <div class="cols-container">
                             <div class="items-image">
                                 <img
-                                    src="{{asset('assets/Images/who we are/innovation.svg')}}"
+                                    src="{{asset('assets/Images/about/innovation.svg')}}"
                                     alt=""
                                     srcset="" />
                             </div>
@@ -146,7 +146,7 @@
                         <div class="cols-container">
                             <div class="items-image">
                                 <img
-                                    src="{{asset('assets/Images/who we are/group.svg')}}"
+                                    src="{{asset('assets/Images/about/group.svg')}}"
                                     alt=""
                                     srcset="" />
                             </div>
@@ -165,7 +165,7 @@
                         <div class="cols-container">
                             <div class="items-image">
                                 <img
-                                    src="{{asset('assets/Images/who we are/excellent.svg')}}"
+                                    src="{{asset('assets/Images/about/excellent.svg')}}"
                                     alt=""
                                     srcset="" />
                             </div>

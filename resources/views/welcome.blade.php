@@ -32,9 +32,12 @@
                 <div class="container">
                     <div class="banner-content">
                         <div class="bannner-text">
-                            <h1 class="text-white banner-text-size fade-in delay-1">Delivering Perfumes</h1>
+                            <h1 class="text-white banner-text-size fade-in delay-1">
+                            Carving the Fastest Routes Rolling Strong,
+
+</h1>
                             <h1 class="text-white banner-text-size fade-in delay-2">
-                                Exporting Excellence
+                             Delivering on Time
                             </h1>
                         </div>
                         <a href="#track-section" class="btn-typ1 fade-in delay-3">
@@ -85,28 +88,28 @@
             <div class="img-wrap row">
                 <div class="col-md-6 cols">
                     <div class="item fade-in delay-2">
-                        <img src="{{asset('assets/Images/website-images/dangerous-goods.webp')}}" alt="" />
+                        <img src="{{asset('assets/Images/website-images/dangerous-goods.jpeg')}}" alt="" />
                         <div class="img-label">Dangerous Goods</div>
                     </div>
                 </div>
                 <div class="col-md-3 cols">
                     <div class="item fade-in delay-2">
-                        <img src="{{asset('assets/Images/website-images/cargo-plane-loading-runway-with-packages.jpg')}}" alt="" />
+                        <img src="{{asset('assets/Images/website-images/img-4.jpg')}}" alt="" />
                         <div class="img-label">Air Freight</div>
                     </div>
                     <div class="item fade-in delay-3">
-                        <img src="{{asset('assets/Images/website-images/container-ship-is-being-unloaded-harbor-sunny-weather.jpg')}}" alt="" />
+                        <img src="{{asset('assets/Images/website-images/img-5.jpg')}}" alt="" />
                         <div class="img-label">Ocean Freight</div>
                     </div>
                 </div>
                 <div class="col-md-3 cols">
                     <div class="item fade-in delay-3">
-                        <img src="{{asset('assets/Images/website-images/white-truck-highway-road-with-container-transportation-concept-import-export-logistic-industrial-transporting-land-transport-expressway-motion-blurred-soft-focus.jpg')}}"
+                        <img src="{{asset('assets/Images/website-images/img-6.jpeg')}}"
                             alt="" />
-                        <div class="img-label">Land Freight</div>
+                        <div class="img-label">Road Freight</div>
                     </div>
                     <div class="item fade-in delay-3">
-                        <img src="{{asset('assets/Images/website-images/endless-rows-vast-industrial-warehouse.jpg')}}"
+                        <img src="{{asset('assets/Images/website-images/img-7.jpg')}}"
                             alt="" />
                         <div class="img-label">Warehouse</div>
                     </div>
@@ -135,17 +138,17 @@
         </div>
         <div class="img-container">
             <div class="items-image fade-in delay-1">
-                <img src="{{asset('assets/Images/website-images/closeup-pile-coins-with-carton-boxes-forklift-vehicle.jpg')}}"
+                <img src="{{asset('assets/Images/website-images/img-3.jpg')}}"
                     alt="" srcset="" />
                 <div class="img-label">Cost Savings</div>
             </div>
             <div class="items-image fade-in delay-2">
-                <img src="{{asset('assets/Images/website-images/woman-wearing-safety-cap-work.jpg')}}" alt=""
+                <img src="{{asset('assets/Images/website-images/img-2.jpg')}}" alt=""
                     srcset="" />
                 <div class="img-label">Secure Services</div>
             </div>
             <div class="items-image fade-in delay-3">
-                <img src="{{asset('assets/Images/website-images/low-angle-view-happy-senior-manager-greeting-his-employees-factory-warehouse-me-are-shaking-hands.jpg')}}"
+                <img src="{{asset('assets/Images/website-images/img-1.jpg')}}"
                     alt="" srcset="" />
                 <div class="img-label">Proven Experience</div>
             </div>
@@ -246,7 +249,7 @@
     <section class="group-of-Companies">
         <div class="container">
             <div class="h1-text">
-                <h1 class="fade-in">Our <span class="fade-in delay-1">Affiliated Companies</span></h1>
+                <h1 class="fade-in">Our <span class="fade-in delay-1">Group of Companies</span></h1>
                 <!-- <h1 class="fade-in">Group <span class="fade-in delay-1">of Companies</span></h1> -->
             </div>
             <div class="comapanies-container">
@@ -272,7 +275,7 @@
         </div>
     </section>
 
-    <section class="find-us">
+    <!-- <section class="find-us">
         <div class="main-class container">
             <div class="find-us-heading col-md-6 cols">
                 <div class="heading fade-in">
@@ -284,7 +287,7 @@
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-twitter-x"></i>
                         <i class="bi bi-linkedin"></i>
-                        <!-- <i class="bi bi-youtube"></i> -->
+
                     </div>
                 </div>
                 <div class="button-heading fade-in delay-2">
@@ -326,8 +329,180 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  -->
 
+
+    <!-- <section class="find-us">
+      <div class="main-class container">
+        <div class="find-us-heading col-md-3 cols">
+          <div class="heading fade-in">
+            <div>
+              <h1>Find <span>Us</span></h1>
+            </div>
+            <div class="fade-in delay-1">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-youtube"></i>
+            </div>
+          </div>
+          <div class="button-heading fade-in delay-2">
+            <div>
+              <h1>For latest</h1>
+              <h1>news & updates</h1>
+              <h1>follow us on</h1>
+            </div>
+            <div class="fade-in delay-3">
+              <button><i class="bi bi-facebook"></i> EXIM</button>
+              <button><i class="bi bi-instagram"></i>exim</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 cols">
+          <div class="mobile-png fade-in delay-2">
+            <img
+              src="{{asset('assets/Images/website-images/mobile.png')}}"
+              alt=""
+              srcset=""
+            />
+            <div class="video-label">
+              <h1>Vi<span>deo</span></h1>
+            </div>
+          </div>
+        </div>
+        <div class="image-group col-md-6 cols">
+                <div class="column-one">
+                    <div class="imag-item fade-in delay-1">
+                        <img src="{{asset('assets/Images/website-images/SM-01.jpg')}}" alt="" srcset="" />
+                    </div>
+                    <div class="imag-item fade-in delay-2">
+                        <img src="{{asset('assets/Images/website-images/SM-02.jpg')}}" alt="" srcset="" />
+                    </div>
+                </div>
+                <div class="column-two">
+                    <div class="imag-item fade-in delay-2">
+                        <img src="{{asset('assets/Images/website-images/SM-03.jpg')}}" alt="" srcset="" />
+                    </div>
+                    <div class="imag-item fade-in delay-3">
+                        <img src="{{asset('assets/Images/website-images/SM-04.jpg')}}" alt="" srcset="" />
+                    </div>
+                </div>
+                <div class="column-three">
+                    <div class="imag-item fade-in delay-3">
+                        <img src="{{asset('assets/Images/website-images/SM-05.jpg')}}" alt="" srcset="" />
+                    </div>
+                    <div class="imag-item fade-in delay-4">
+                        <img src="{{asset('assets/Images/website-images/SM-06.jpg')}}" alt="" srcset="" />
+                    </div>
+                </div>
+            </div>
+      </div>
+    </section> -->
+
+    <section class="find-us">
+      <div class="main-class container">
+        <div class="find-us-heading col-md-3 cols">
+          <div class="heading fade-in">
+            <div>
+              <h1>Find <span>Us</span></h1>
+            </div>
+            <div class="fade-in delay-1">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-linkedin"></i>
+              <!-- <i class="bi bi-youtube"></i> -->
+            </div>
+          </div>
+          <div class="button-heading fade-in delay-2">
+            <div>
+              <h1>For latest</h1>
+              <h1>news & updates</h1>
+              <h1>follow us on</h1>
+            </div>
+            <div class="fade-in delay-3">
+              <button><i class="bi bi-linkedin"></i>EXIM</button>
+              <button><i class="bi bi-facebook"></i> EXIM</button>
+              <button><i class="bi bi-instagram"></i>EXIM</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 cols">
+          <div class="mobile-png fade-in delay-4">
+            <img
+              src="{{asset('assets/Images/website-images/mobile.png')}}"
+              alt=""
+              srcset=""
+            />
+            <div class="video-label">
+              <video controls autoplay muted loop>
+                <source
+                  src="{{asset('assets/Images/Video/video.mp4')}}"
+                  type="video/mp4"
+                />
+                <source src="movie.webm" type="video/webm" />
+                <source src="movie.ogv" type="video/ogg" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="image-group col-md-6 cols">
+          <div class="column-one">
+            <div class="imag-item fade-in delay-5">
+              <img
+                src="{{asset('assets/Images/website-images/SM-01.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+
+            <div class="imag-item fade-in delay-5">
+              <img
+                src="{{asset('assets/Images/website-images/SM-02.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+
+          <div class="column-two">
+            <div class="imag-item fade-in delay-5">
+              <img
+                src="{{asset('assets/Images/website-images/SM-03.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+
+            <div class="imag-item fade-in delay-5">
+              <img
+                src="{{asset('assets/Images/website-images/SM-04.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="column-three fade-in delay-5">
+            <div class="imag-item">
+              <img
+                src="{{asset('assets/Images/website-images/SM-05.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="imag-item fade-in delay-5">
+              <img
+                src="{{asset('assets/Images/website-images/SM-06.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
