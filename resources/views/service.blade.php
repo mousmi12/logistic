@@ -23,7 +23,7 @@
       </div>
     </section>
 
-    <section class="dangerous-goods">
+    <section id="dangerous-goods" class="dangerous-goods">
       <div class="container">
         <div class="cols-image">
           <div class="img-container fade-in delay-4">
@@ -56,7 +56,7 @@
         </div>
       </div>
     </section>
-    <section class="air-freight">
+    <section id="air-freight" class="air-freight">
       <div class="container">
         <div class="cols-content">
           <div class="content-section">
@@ -86,7 +86,7 @@
         </div>
       </div>
     </section>
-    <section class="dangerous-goods">
+    <section id="ocean-freight" class="dangerous-goods">
       <div class="container">
         <div class="cols-image">
           <div class="img-container fade-in delay-1">
@@ -119,7 +119,7 @@
         </div>
       </div>
     </section>
-    <section class="air-freight">
+    <section id="road-freight" class="air-freight">
       <div class="container">
         <div class="cols-content">
           <div class="content-section">
@@ -150,7 +150,7 @@
       </div>
     </section>
 
-    <section class="customs-parehousing-project">
+    <section id="warehouse" class="customs-parehousing-project">
       <div class="customs-brokerage">
         <div class="container">
           <div class="col-md-4 cols-one">

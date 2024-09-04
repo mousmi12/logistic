@@ -6,8 +6,6 @@
 
     @include('menu')
 
-
-
     <section class="scroll-section">
         <div class="banner-section">
             <img src="{{asset('assets/Images/Slider/slider-one.JPG')}}" alt="mainBaner" />
@@ -15,10 +13,10 @@
                 <div class="container">
                     <div class="banner-content">
                         <div class="bannner-text">
-                            <h1 class="text-white banner-text-size fade-in delay-1">Beyond Borders</h1>
-                            <h1 class="text-white banner-text-size fade-in delay-2">Beyond Expectations</h1>
+                            <h1 class="text-white banner-text-size">Beyond Borders</h1>
+                            <h1 class="text-white banner-text-size">Beyond Expectations</h1>
                         </div>
-                        <a href="#track-section" class="btn-typ1 fade-in delay-3">
+                        <a href="#track-section" class="btn-typ1">
                             Track Your Shipment
                             <i class="bi bi-chevron-right arrowbolder"></i>
                         </a>
@@ -32,15 +30,14 @@
                 <div class="container">
                     <div class="banner-content">
                         <div class="bannner-text">
-                            <h1 class="text-white banner-text-size fade-in delay-1">
-                            Carving the Fastest Routes Rolling Strong,
-
-</h1>
-                            <h1 class="text-white banner-text-size fade-in delay-2">
-                             Delivering on Time
+                            <h1 class="text-white banner-text-size">
+                                Carving the Fastest Routes,
+                            </h1>
+                            <h1 class="text-white banner-text-size">
+                                Rolling Strong Delivering on Time
                             </h1>
                         </div>
-                        <a href="#track-section" class="btn-typ1 fade-in delay-3">
+                        <a href="#track-section" class="btn-typ1">
                             Track Your Shipment
                             <i class="bi bi-chevron-right arrowbolder"></i>
                         </a>
@@ -54,14 +51,14 @@
                 <div class="container">
                     <div class="banner-content">
                         <div class="bannner-text">
-                            <h1 class="text-white banner-text-size fade-in delay-1">
-                                Warehousing Without Limits
+                            <h1 class="text-white banner-text-size">
+                                Trust the skies. Trust us.
                             </h1>
-                            <h1 class="text-white banner-text-size fade-in delay-2">
-                                IMEX Covers Every Corner
+                            <h1 class="text-white banner-text-size">
+                                EXIM Covers Every Corner
                             </h1>
                         </div>
-                        <a href="#track-section" class="btn-typ1 fade-in delay-3">
+                        <a href="#track-section" class="btn-typ1">
                             Track Your Shipment
                             <i class="bi bi-chevron-right arrowbolder"></i>
                         </a>
@@ -71,8 +68,71 @@
         </div>
     </section>
 
+    <!--    <section class="scroll-section">-->
+    <!--        <div class="banner-section">-->
+    <!--            <img src="{{asset('assets/Images/Slider/slider-one.JPG')}}" alt="mainBaner" />-->
+    <!--            <div class="wrapper">-->
+    <!--                <div class="container">-->
+    <!--                    <div class="banner-content">-->
+    <!--                        <div class="bannner-text">-->
+    <!--                            <h1 class="text-white banner-text-size fade-in delay-1">Beyond Borders</h1>-->
+    <!--                            <h1 class="text-white banner-text-size fade-in delay-2">Beyond Expectations</h1>-->
+    <!--                        </div>-->
+    <!--                        <a href="#track-section" class="btn-typ1 fade-in delay-3">-->
+    <!--                            Track Your Shipment-->
+    <!--                            <i class="bi bi-chevron-right arrowbolder"></i>-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="banner-section">-->
+    <!--            <img src="{{asset('assets/Images/Slider/slider-two.jpg')}}" alt="mainBaner" />-->
+    <!--            <div class="wrapper">-->
+    <!--                <div class="container">-->
+    <!--                    <div class="banner-content">-->
+    <!--                        <div class="bannner-text">-->
+    <!--                            <h1 class="text-white banner-text-size fade-in delay-1">-->
+    <!--                            Carving the Fastest Routes -->
 
-    <section class="what-we-provide">
+    <!--</h1>-->
+    <!--                            <h1 class="text-white banner-text-size fade-in delay-2">-->
+    <!--                             Rolling Strong, Delivering on Time-->
+    <!--                            </h1>-->
+    <!--                        </div>-->
+    <!--                        <a href="#track-section" class="btn-typ1 fade-in delay-3">-->
+    <!--                            Track Your Shipment-->
+    <!--                            <i class="bi bi-chevron-right arrowbolder"></i>-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="banner-section">-->
+    <!--            <img src="{{asset('assets/Images/Slider/slider-three.jpg')}}" alt="mainBaner" />-->
+    <!--            <div class="wrapper">-->
+    <!--                <div class="container">-->
+    <!--                    <div class="banner-content">-->
+    <!--                        <div class="bannner-text">-->
+    <!--                            <h1 class="text-white banner-text-size fade-in delay-1">-->
+    <!--                                Trust the skies. Trust us.-->
+    <!--                            </h1>-->
+    <!--                            <h1 class="text-white banner-text-size fade-in delay-2">-->
+    <!--                                EXIM Covers Every Corner-->
+    <!--                            </h1>-->
+    <!--                        </div>-->
+    <!--                        <a href="#track-section" class="btn-typ1 fade-in delay-3">-->
+    <!--                            Track Your Shipment-->
+    <!--                            <i class="bi bi-chevron-right arrowbolder"></i>-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+
+
+    <!-- <section class="what-we-provide">
         <div class="container">
             <h2 class="hd-typ1 text-center what-we-provide-text-size fade-in">
                 How Do We
@@ -117,6 +177,64 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <section class="what-we-provide">
+        <div class="container">
+            <h2 class="hd-typ1 text-center what-we-provide-text-size fade-in">
+                How Do We
+                <span class="text-red hd-span-color fade-in delay-1"> Connect Your World ?</span>
+            </h2>
+            <div class="intro-txt fade-in delay-2">
+                We specialize in connecting your freight to every corner of the world
+                with customized logistics solutions. From smooth air and ocean freight
+                to reliable land transport and secure warehousing, we ensure your
+                goods-even the most sensitive and hazardous ones-are treated with the
+                care and expertise they deserve.
+            </div>
+            <div class="img-wrap row">
+                <div class="col-md-6 cols">
+                    <div class="item fade-in delay-3">
+                    <a href="{{ route('service') }}#road-freight">
+                    <img src="{{asset('assets/Images/website-images/img-6.jpeg')}}" alt="" /> </a>
+                        <div class="img-label">Road Freight</div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 cols">
+                    <div class="item fade-in delay-2">
+                    <a href="{{ route('service') }}#air-freight">
+                        <img src="{{asset('assets/Images/website-images/img-4.jpg')}}" alt="" /></a>
+                        <div class="img-label">Air Freight</div>
+
+                    </div>
+                    <div class="item fade-in delay-3">
+                    <a href="{{ route('service') }}#ocean-freight">
+                        <img src="{{asset('assets/Images/website-images/img-5.jpg')}}" alt="" /> </a>
+                        <div class="img-label">Ocean Freight</div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 cols">
+                    <div class="item fade-in delay-4">
+                    <a href="{{ route('service') }}#dangerous-goods">
+                        <img
+                            src="{{asset('assets/Images/website-images/dangerous-goods.jpeg')}}"
+                            alt="" />
+                    </a>
+                        <div class="img-label ">Dangerous Goods</div>
+
+                    </div>
+                    <div class="item fade-in delay-4">
+                    <a href="{{ route('service') }}#warehouse">
+                        <img src="{{asset('assets/Images/website-images/img-7.jpg')}}" alt="" /></a>
+                        <div class="img-label">Warehouse</div>
+
+                    </div>
+
+                    <button class="btn-typ2" id="knowMoreButton">Know more</button>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="why-choose-exim">
         <div class="container">
@@ -138,7 +256,7 @@
         </div>
         <div class="img-container">
             <div class="items-image fade-in delay-1">
-                <img src="{{asset('assets/Images/website-images/img-3.jpg')}}"
+                <img src="{{asset('assets/Images/website-images/img-3.jpeg')}}"
                     alt="" srcset="" />
                 <div class="img-label">Cost Savings</div>
             </div>
@@ -148,7 +266,7 @@
                 <div class="img-label">Secure Services</div>
             </div>
             <div class="items-image fade-in delay-3">
-                <img src="{{asset('assets/Images/website-images/img-1.jpg')}}"
+                <img src="{{asset('assets/Images/website-images/img-1.jpeg')}}"
                     alt="" srcset="" />
                 <div class="img-label">Proven Experience</div>
             </div>
@@ -160,7 +278,7 @@
                 <h1 class="fade-in">Serving <span class="fade-in delay-1">Around the Globe</span></h1>
                 <p class="fade-in delay-2">
                     Picture this: your cargo, aptly navigated through air, sea, and
-                    land, arriving accurately when and where it's needed—whether it's
+                    land, arriving accurately when and where it's needed-whether it's
                     just down the road or halfway around the globe. Yes, we simplify the
                     intricacy of international logistics into a seamless journey,
                     ensuring your cargo traverses the world with unparalleled efficiency
@@ -203,7 +321,7 @@
                     </div>
                     <div class="status-item-second-section">
                         <h1>Route Planning</h1>
-                        <p>Wecraft the best route for efficient delivery.</p>
+                        <p>We craft the best route for efficient delivery.</p>
                     </div>
                 </div>
                 <div class="status-item fade-in delay-4">
@@ -249,7 +367,7 @@
     <section class="group-of-Companies">
         <div class="container">
             <div class="h1-text">
-                <h1 class="fade-in">Our <span class="fade-in delay-1">Group of Companies</span></h1>
+                <h1 class="fade-in">Our Group <span class="fade-in delay-1">of Companies</span></h1>
                 <!-- <h1 class="fade-in">Group <span class="fade-in delay-1">of Companies</span></h1> -->
             </div>
             <div class="comapanies-container">
@@ -400,7 +518,7 @@
       </div>
     </section> -->
 
-    <section class="find-us">
+    <!-- <section class="find-us">
       <div class="main-class container">
         <div class="find-us-heading col-md-3 cols">
           <div class="heading fade-in">
@@ -412,7 +530,7 @@
               <i class="bi bi-instagram"></i>
               <i class="bi bi-twitter-x"></i>
               <i class="bi bi-linkedin"></i>
-              <!-- <i class="bi bi-youtube"></i> -->
+
             </div>
           </div>
           <div class="button-heading fade-in delay-2">
@@ -502,9 +620,115 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <section class="find-us">
+        <div class="main-class container">
+            <div class="find-us-heading col-md-3 cols">
+                <div class="heading fade-in">
+                    <div>
+                        <h1>Find <span>Us</span></h1>
+                    </div>
+                    <div class="fade-in delay-1">
+                        <a href="https://www.instagram.com/p/C_U0PhOyxR0/" target="_blank" style="color: inherit; text-decoration: none;">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/photo/?fbid=122110908794423546&set=a.122100275210423546" target="_blank" style="color: inherit; text-decoration: none;">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/exim-clearing-and-forwarding-l-l-c-dubai/?viewAsMember=true" target="_blank" style="color: inherit; text-decoration: none;">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <!-- <i class="bi bi-youtube"></i> -->
+                    </div>
+                </div>
+                <div class="button-heading">
+                    <div class="fade-in delay-2">
+                        <h1>For latest</h1>
+                        <h1>news & updates</h1>
+                        <h1>follow us on</h1>
+                    </div>
+                    <div class="fade-in delay-3">
+                        <a href="https://www.instagram.com/p/C_U0PhOyxR0/" target="_blank" style="color: inherit; text-decoration: none;">
+                            <button><i class="bi bi-instagram"></i> EXIM</button>
+                        </a>
+                        <a href="https://www.facebook.com/photo/?fbid=122110908794423546&set=a.122100275210423546" target="_blank" style="color: inherit; text-decoration: none;">
+                            <button><i class="bi bi-facebook"></i> EXIM</button>
+                        </a>
+                        <a href="https://www.linkedin.com/company/exim-clearing-and-forwarding-l-l-c-dubai/?viewAsMember=true" target="_blank" style="color: inherit; text-decoration: none;">
+                            <button><i class="bi bi-linkedin"></i> EXIM</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3 cols">
+                <div class="mobile-png fade-in delay-4">
+                    <img
+                        src="{{asset('assets/Images/website-images/mobile.png')}}"
+                        alt=""
+                        srcset="" />
+                    <div class="video-label fade-in delay-5">
+                        <video id="promo-video" controls autoplay muted loop>
+                            <source
+                                src="{{asset('assets/Images/Video/video.mp4')}}"
+                                type="video/mp4" />
+                            <source src="movie.webm" type="video/webm" />
+                            <source src="movie.ogv" type="video/ogg" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="image-group col-md-6 cols fade-in delay-6">
+                <div class="column-one">
+                    <div class="imag-item">
+                        <img
+                            src="{{asset('assets/Images/website-images/SM-01.jpeg')}}"
+                            alt=""
+                            srcset="" />
+                    </div>
+
+                    <div class="imag-item">
+                        <img
+                            src="{{asset('assets/Images/website-images/SM-02.jpeg')}}"
+                            alt=""
+                            srcset="" />
+                    </div>
+                </div>
+
+                <div class="column-two">
+                    <div class="imag-item">
+                        <img
+                            src="{{asset('assets/Images/website-images/SM-03.jpeg')}}"
+                            alt=""
+                            srcset="" />
+                    </div>
+
+                    <div class="imag-item">
+                        <img
+                            src="{{asset('assets/Images/website-images/SM-04.jpeg')}}"
+                            alt=""
+                            srcset="" />
+                    </div>
+                </div>
+                <div class="column-three">
+                    <div class="imag-item">
+                        <img
+                            src="{{asset('assets/Images/website-images/SM-05.jpeg')}}"
+                            alt=""
+                            srcset="" />
+                    </div>
+                    <div class="imag-item">
+                        <img
+                            src="{{asset('assets/Images/website-images/SM-06.jpeg')}}"
+                            alt=""
+                            srcset="" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
-
 
     <section class="track-your-shipment">
         <img src="{{asset('assets/Images/website-images/container-operation.jpg')}}" alt="mainBaner" class="fade-in" />
@@ -539,7 +763,13 @@
     @include('footer')
     @include('js')
 
+<script>
+    var serviceUrl = "{{ route('service') }}";
+    document.getElementById('knowMoreButton').addEventListener('click', function() {
+        window.location.href = serviceUrl;
+    });
 
+</script>
 </body>
 
 </html>
