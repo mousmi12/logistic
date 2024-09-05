@@ -11,13 +11,12 @@
                         class="logoImageSize" />
                 </a>
             </div>
-            <!-- <div>
-            <i class="bi bi-list"></i>
-          </div> -->
+           
             <div class="nav-links">
                 <a class="headerlink {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a>
                 <a class="headerlink {{ Request::is('aboutus') ? 'active' : '' }}" href="{{ route('aboutus') }}">Who We Are</a>
                 <a class="headerlink {{ Request::is('service') ? 'active' : '' }}" href="{{ route('service') }}">Services</a>
+                <a class="headerlink {{ Request::is('resource') ? 'active' : '' }}" href="{{ route('resource') }}">Resource</a>
                 <a class="headerlink {{ Request::is('findus') ? 'active' : '' }}" href="{{ route('findus') }}">Find Us</a>
             </div>
 
