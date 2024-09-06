@@ -17,3 +17,6 @@ Route::get('/findus', function () {
 Route::get('/resource', function () {
     return view('resource');
 })->name('resource');
+Route::get('/container', function () {
+    return view('container');
+})->name('container');

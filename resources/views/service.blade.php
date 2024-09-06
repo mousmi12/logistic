@@ -159,8 +159,8 @@
               </div>
               <div class="container-paragraph">
                 <p class="fade-in delay-6">
-                State-of-the-art warehousing facilities 
-                and distribution services for optimal 
+                State-of-the-art warehousing facilities
+                and distribution services for optimal
                 inventory management and order fulfillment.
                 </p>
               </div>
@@ -178,11 +178,11 @@
           <div class="container-content">
             <div class="container-not-image">
               <div class="container-heading">
-                <h1 class="fade-in delay-9">Project Cargo</h1>
+                <h1 class="fade-in delay-9">Cross-Trade Shipments</h1>
               </div>
               <div class="container-paragraph">
                 <p class="fade-in delay-10">
-                  Tailored logistics solutions for oversized, heavy-lift, and complex cargo projects.
+                Smooth cross-trade services, expertly coordinating multi-national logistics to efficiently transport your cargo across borders.
                 </p>
               </div>
             </div>

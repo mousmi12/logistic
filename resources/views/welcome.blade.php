@@ -622,113 +622,144 @@
       </div>
     </section> -->
 
+
+
+
     <section class="find-us">
-        <div class="main-class container">
-            <div class="find-us-heading col-md-3 cols">
-                <div class="heading fade-in">
-                    <div>
-                        <h1>Find <span>Us</span></h1>
-                    </div>
-                    <div class="fade-in delay-1">
-                        <a href="https://www.instagram.com/p/C_U0PhOyxR0/" target="_blank" style="color: inherit; text-decoration: none;">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="https://www.facebook.com/photo/?fbid=122110908794423546&set=a.122100275210423546" target="_blank" style="color: inherit; text-decoration: none;">
-                            <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/company/exim-clearing-and-forwarding-l-l-c-dubai/?viewAsMember=true" target="_blank" style="color: inherit; text-decoration: none;">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                        <!-- <i class="bi bi-youtube"></i> -->
-                    </div>
-                </div>
-                <div class="button-heading">
-                    <div class="fade-in delay-2">
-                        <h1>For latest</h1>
-                        <h1>news & updates</h1>
-                        <h1>follow us on</h1>
-                    </div>
-                    <div class="fade-in delay-3">
-                        <a href="https://www.instagram.com/p/C_U0PhOyxR0/" target="_blank" style="color: inherit; text-decoration: none;">
-                            <button><i class="bi bi-instagram"></i> EXIM</button>
-                        </a>
-                        <a href="https://www.facebook.com/photo/?fbid=122110908794423546&set=a.122100275210423546" target="_blank" style="color: inherit; text-decoration: none;">
-                            <button><i class="bi bi-facebook"></i> EXIM</button>
-                        </a>
-                        <a href="https://www.linkedin.com/company/exim-clearing-and-forwarding-l-l-c-dubai/?viewAsMember=true" target="_blank" style="color: inherit; text-decoration: none;">
-                            <button><i class="bi bi-linkedin"></i> EXIM</button>
-                        </a>
-                    </div>
-
-                </div>
+      <div class="main-class container">
+        <div class="find-us-heading col-md-3 cols">
+          <div class="heading">
+            <div>
+              <h1>Find <span>Us</span></h1>
             </div>
-            <div class="col-md-3 cols">
-                <div class="mobile-png fade-in delay-4">
-                    <img
-                        src="{{asset('assets/Images/website-images/mobile.png')}}"
-                        alt=""
-                        srcset="" />
-                    <div class="video-label fade-in delay-5">
-                        <video id="promo-video" controls autoplay muted loop>
-                            <source
-                                src="{{asset('assets/Images/Video/video.mp4')}}"
-                                type="video/mp4" />
-                            <source src="movie.webm" type="video/webm" />
-                            <source src="movie.ogv" type="video/ogg" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
+            <div>
+              <a
+                href="https://www.facebook.com/photo/?fbid=122110908794423546&set=a.122100275210423546"
+                target="_blank"
+              >
+                <i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/p/C_U0PhOyxR0/."
+                target="_blank"
+              >
+                <i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/exim-clearing-and-forwarding-l-l-c-dubai/?viewAsMember=true"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i
+              ></a>
+              <!-- <i class="bi bi-youtube"></i> -->
             </div>
-            <div class="image-group col-md-6 cols fade-in delay-6">
-                <div class="column-one">
-                    <div class="imag-item">
-                        <img
-                            src="{{asset('assets/Images/website-images/SM-01.jpeg')}}"
-                            alt=""
-                            srcset="" />
-                    </div>
-
-                    <div class="imag-item">
-                        <img
-                            src="{{asset('assets/Images/website-images/SM-02.jpeg')}}"
-                            alt=""
-                            srcset="" />
-                    </div>
-                </div>
-
-                <div class="column-two">
-                    <div class="imag-item">
-                        <img
-                            src="{{asset('assets/Images/website-images/SM-03.jpeg')}}"
-                            alt=""
-                            srcset="" />
-                    </div>
-
-                    <div class="imag-item">
-                        <img
-                            src="{{asset('assets/Images/website-images/SM-04.jpeg')}}"
-                            alt=""
-                            srcset="" />
-                    </div>
-                </div>
-                <div class="column-three">
-                    <div class="imag-item">
-                        <img
-                            src="{{asset('assets/Images/website-images/SM-05.jpeg')}}"
-                            alt=""
-                            srcset="" />
-                    </div>
-                    <div class="imag-item">
-                        <img
-                            src="{{asset('assets/Images/website-images/SM-06.jpeg')}}"
-                            alt=""
-                            srcset="" />
-                    </div>
-                </div>
+          </div>
+          <div class="button-heading">
+            <div>
+              <h1>For latest</h1>
+              <h1>news & updates</h1>
+              <h1>follow us on</h1>
             </div>
+            <div>
+              <a
+                href="https://www.facebook.com/photo/?fbid=122110908794423546&set=a.122100275210423546"
+                target="_blank"
+                ><i class="bi bi-facebook"></i>EXIM</a
+              >
+              <a
+                href="https://www.instagram.com/p/C_U0PhOyxR0/."
+                target="_blank"
+                ><i class="bi bi-instagram"></i>EXIM</a
+              >
+              <a
+                href="https://www.linkedin.com/company/exim-clearing-and-forwarding-l-l-c-dubai/?viewAsMember=true"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i> EXIM</a
+              >
+              <!-- <button><i class="bi bi-twitter-x"></i> EXIM</button> -->
+            </div>
+          </div>
         </div>
+        <div class="col-md-3 cols">
+          <div class="mobile-png">
+            <img
+              src="{{asset('assets/Images/website-images/mobile.png')}}"
+              alt=""
+              srcset=""
+            />
+            <div class="video-label">
+              <video id="promo-video" controls muted loop>
+                <source
+                  src="{{asset('assets/Images/Video/video.mp4')}}"
+                  type="video/mp4"
+                />
+                <source src="movie.webm" type="video/webm" />
+                <source src="movie.ogv" type="video/ogg" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="image-group col-md-6 cols">
+          <div class="column-one">
+            <div class="imag-item">
+              <img
+                src="{{asset('assets/Images/website-images/SM-01.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+
+            <div class="imag-item">
+              <img
+                src="{{asset('assets/Images/website-images/SM-02.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+
+          <div class="column-two">
+            <div class="imag-item">
+              <img
+                src="{{asset('assets/Images/website-images/SM-03.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+
+            <div class="imag-item">
+              <img
+                src="{{asset('assets/Images/website-images/SM-04.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="column-three">
+            <div class="imag-item">
+              <img
+                src="{{asset('assets/Images/website-images/SM-05.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="imag-item">
+              <img
+                src="{{asset('assets/Images/website-images/SM-06.jpeg')}}"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+
+
+
+
 
     <section class="track-your-shipment">
         <img src="{{asset('assets/Images/website-images/container-operation.jpg')}}" alt="mainBaner" class="fade-in" />
