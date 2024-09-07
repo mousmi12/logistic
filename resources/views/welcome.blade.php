@@ -6,7 +6,7 @@
 
     @include('menu')
 
-    <section class="scroll-section">
+    <section class="scroll-section ">
         <div class="banner-section">
             <img src="{{asset('assets/Images/Slider/slider-one.JPG')}}" alt="mainBaner" />
             <div class="wrapper">
@@ -16,7 +16,7 @@
                             <h1 class="text-white banner-text-size">Beyond Borders</h1>
                             <h1 class="text-white banner-text-size">Beyond Expectations</h1>
                         </div>
-                        <a href="#track-section" class="btn-typ1">
+                        <a href="#track-section" class="btn-typ1 scroll-to-track">
                             Track Your Shipment
                             <i class="bi bi-chevron-right arrowbolder"></i>
                         </a>
@@ -37,7 +37,7 @@
                                 Rolling Strong Delivering on Time
                             </h1>
                         </div>
-                        <a href="#track-section" class="btn-typ1">
+                        <a href="#track-section" class="btn-typ1 scroll-to-track">
                             Track Your Shipment
                             <i class="bi bi-chevron-right arrowbolder"></i>
                         </a>
@@ -58,7 +58,7 @@
                                 EXIM Covers Every Corner
                             </h1>
                         </div>
-                        <a href="#track-section" class="btn-typ1">
+                        <a href="#track-section" class="btn-typ1 scroll-to-track">
                             Track Your Shipment
                             <i class="bi bi-chevron-right arrowbolder"></i>
                         </a>
@@ -179,6 +179,62 @@
         </div>
     </section> -->
     <section class="what-we-provide">
+      <div class="container">
+        <h2 class="hd-typ1 text-center what-we-provide-text-size fade-in">
+          How Do We
+          <span class="text-red hd-span-color fade-in delay-1"> Connect Your World ?</span>
+        </h2>
+        <div class="intro-txt fade-in delay-2">
+          We specialize in connecting your freight to every corner of the world
+          with customized logistics solutions. From smooth air and ocean freight
+          to reliable land transport and secure warehousing, we ensure your
+          goods-even the most sensitive and hazardous ones-are treated with the
+          care and expertise they deserve.
+        </div>
+        <div class="img-wrap row">
+          <div class="col-md-6 cols">
+          <a href="{{ route('service') }}#road-freight">
+            <div class="item fade-in delay-3">
+           
+              <img src="{{asset('assets/Images/website-images/img-6.jpeg')}}" alt="" />
+              <div class="img-label">Road Freight</div>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-3 cols">
+            
+            <div class="item fade-in delay-2">
+            <a href="{{ route('service') }}#air-freight">
+              <img src="{{asset('assets/Images/website-images/img-4.jpg')}}" alt="" />  </a>
+              <div class="img-label">Air Freight</div>
+          
+            </div>
+            <div class="item fade-in delay-3">
+            <a href="{{ route('service') }}#ocean-freight">
+              <img src="{{asset('assets/Images/website-images/img-5.jpg')}}" alt="" /></a>
+              <div class="img-label">Ocean Freight</div>
+            </div>
+          </div>
+          <div class="col-md-3 cols">
+            <div class="item fade-in delay-4">
+            <a href="{{ route('service') }}#dangerous-goods">
+              <img
+                src="{{asset('assets/Images/website-images/dangerous-goods.jpeg')}}"
+                alt=""
+              /></a>
+              <div class="img-label ">Dangerous Goods</div>
+            </div>
+            <div class="item fade-in delay-4">
+            <a href="{{ route('service') }}#warehouse">
+              <img src="{{asset('assets/Images/website-images/img-7.jpg')}}" alt="" /></a>
+              <div class="img-label">Warehouse</div>
+            </div>
+            <button class="btn-typ2" id="knowMoreButton">Know more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="what-we-provide">
         <div class="container">
             <h2 class="hd-typ1 text-center what-we-provide-text-size fade-in">
                 How Do We
@@ -235,7 +291,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="why-choose-exim">
         <div class="container">
             <div class="col-md-6 cols">
@@ -761,7 +817,7 @@
 
 
 
-    <section class="track-your-shipment">
+    <section class="track-your-shipment" id="track-section">
         <img src="{{asset('assets/Images/website-images/container-operation.jpg')}}" alt="mainBaner" class="fade-in" />
 
         <div class="Shipment container">
@@ -794,12 +850,31 @@
     @include('footer')
     @include('js')
 
-<script>
+    <script>
     var serviceUrl = "{{ route('service') }}";
     document.getElementById('knowMoreButton').addEventListener('click', function() {
         window.location.href = serviceUrl;
     });
+    document.addEventListener('DOMContentLoaded', function() {
+        // Select all buttons with the class 'scroll-to-track'
+        const scrollButtons = document.querySelectorAll('.scroll-to-track');
 
+        scrollButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    });
 </script>
 </body>
 
