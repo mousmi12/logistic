@@ -758,6 +758,66 @@
         </div>
         <div class="image-group col-md-6 cols">
           <div class="column-one">
+            <!-- <div class="imag-item"> -->
+              <img
+                src="{{asset('assets/Images/website-images/SM-01.jpeg')}}"
+                alt=""
+                srcset=""
+                height="200px"
+                width="300px"
+              />
+            <!-- </div> -->
+
+            <!-- <div class="imag-item"> -->
+              <img
+                src="{{asset('assets/Images/website-images/SM-02.jpeg')}}"
+                alt=""
+                srcset=""
+                height="200px"
+                width="300px"
+              />
+            <!-- </div> -->
+          </div>
+
+          <!-- <div class="column-two">
+            <div class="imag-item">
+              <img
+                src="./Assets/Images/website-images/SM-03.jpeg"
+                alt=""
+                srcset=""
+              />
+            </div>
+
+            <div class="imag-item">
+              <img
+                src="./Assets/Images/website-images/SM-04.jpeg"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div> -->
+          <div class="column-three">
+            <!-- <div class="imag-item"> -->
+              <img
+                src="{{asset('assets/Images/website-images/SM-05.jpeg')}}"
+                alt=""
+                srcset=""
+                width="300px"
+                height="450px"
+                style="padding-left: 20px; padding-right: 20px;"
+              />
+            <!-- </div> -->
+            <!-- <div class="imag-item">
+              <img
+                src="./Assets/Images/website-images/SM-06.jpeg"
+                alt=""
+                srcset=""
+              />
+            </div> -->
+          </div>
+        </div>
+        <!-- <div class="image-group col-md-6 cols">
+          <div class="column-one">
             <div class="imag-item">
               <img
                 src="{{asset('assets/Images/website-images/SM-01.jpeg')}}"
@@ -808,7 +868,7 @@
               />
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 

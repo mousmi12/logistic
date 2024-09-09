@@ -6,41 +6,37 @@
                     <img src="{{asset('assets/Images/Logo/Logo-eximnew.png')}}" alt="" srcset=""
                         class="logoImageSize" />
                 </a>
-            </div>           
+            </div>
             <div class="nav-links">
                 <a class="headerlink {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a>
                 <a class="headerlink {{ Request::is('aboutus') ? 'active' : '' }}" href="{{ route('aboutus') }}">Who We
                     Are</a>
-                <a class="headerlink {{ Request::is('service') ? 'active' : '' }}"
-                    href="{{ route('service') }}">Services</a>
+                <a class="headerlink {{ Request::is('service') ? 'active' : '' }}" href="{{ route('service') }}">Services</a>
                 <div class="dropdown">
-                    <a class="headerlink dropdown-toggle {{ Request::is('resource*') || Request::is('container*') || Request::routeIs('resource') || Request::routeIs('container') ? 'active' : '' }}"
-                        href="#"
-                        id="resourceDropdown"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a
+                        class="headerlink dropdown-toggle {{ Request::is('resource*') || Request::is('container*') || Request::routeIs('resource') || Request::routeIs('container') ? 'active' : '' }}"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Resource
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="resourceDropdown">
-                        <li><a class="dropdown-item {{ Request::routeIs('resource') ? 'active' : '' }}"
-                                href="{{ route('resource') }}">INCO Terms</a></li>
-                        <li><a class="dropdown-item {{ Request::routeIs('container') ? 'active' : '' }}"
-                                href="{{ route('container') }}">Container Specification</a></li>
+                    <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item"
-                                href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/converter"
-                                target="_blank">Measurement Convertor</a>
+                            <a class="dropdown-item {{ Request::routeIs('resource') ? 'active' : '' }}" href="{{ route('resource') }}">INCO Terms</a>
                         </li>
-                        <li><a class="dropdown-item"
-                                href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/sea_port"
-                                target="_blank">World Sea Ports</a></li>
-                        <li><a class="dropdown-item"
-                                href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/air_port"
-                                target="_blank">World Air Ports</a>
+                        <li>
+                            <a class="dropdown-item {{ Request::routeIs('container') ? 'active' : '' }}" href="{{ route('container') }}">Container Specification</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/converter" target="_blank">Measurement Convertor</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/sea_port" target="_blank">World Sea Ports</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/air_port" target="_blank">World Air Ports</a>
                         </li>
                     </ul>
                 </div>
+
 
                 <a class="headerlink {{ Request::is('findus') ? 'active' : '' }}" href="{{ route('findus') }}">Find
                     Us</a>
@@ -49,7 +45,73 @@
     </div>
 </header>
 
+
+
 <header class="mobil-section-nav-menu">
+    <div class="container">
+        <div class="container-logo">
+            <a href="{{ url('/') }}">
+                <img src="{{asset('assets/Images/Logo/Logo-eximnew.png')}}" alt="" srcset="" />
+            </a>
+        </div>
+        <div class="container-menu-arrow">
+            <button id="toggleButton" class="menu-open" onclick="toggleMenu()">
+                <i class="bi bi-justify-right"></i>
+            </button>
+            <button class="menu-close" onclick="toggleMenu()">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+    </div>
+    <div class="nav-links-main">
+        <div class="nav-links">
+            <!-- <button onclick="toggleMenu()">
+              <i class="bi bi-x-lg"></i>
+            </button> -->
+
+            <a class="headerlink {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">
+                <i class="bi bi-caret-right-fill"></i> Home</a>
+            <a class="headerlink {{ Request::is('aboutus') ? 'active' : '' }}" href="{{ route('aboutus') }}"><i
+                    class="bi bi-caret-right-fill"></i> Who We Are</a>
+            <a class="headerlink {{ Request::is('service') ? 'active' : '' }}" href="{{ route('service') }}"><i class="bi bi-caret-right-fill"></i>Services </a>
+            <a class="headerlink dropdown-toggle {{ Request::is('resource*') || Request::is('container*') || Request::routeIs('resource') || Request::routeIs('container') ? 'active' : '' }}"
+                href="{{ route('resource') }}" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-caret-right-fill"></i>Resource
+            </a>
+            <ul class="dropdown-menu" style="background-color: rgb(225,225,225,0.6);">
+
+                <li><a class="dropdown-item {{ Request::routeIs('resource') ? 'active' : '' }}"
+                        href="{{ route('resource') }}">INCO Terms</a></li>
+                <li><a class="dropdown-item {{ Request::routeIs('container') ? 'active' : '' }}"
+                        href="{{ route('container') }}">Container Specification</a></li>
+                <li>
+                    <a class="dropdown-item"
+                        href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/converter"
+                        target="_blank">Measurement Convertor</a>
+                </li>
+                <li><a class="dropdown-item"
+                        href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/sea_port"
+                        target="_blank">World Sea Ports</a></li>
+                <li><a class="dropdown-item"
+                        href="https://track.fresatechnologies.com/ords/r/fresaportal1/fresaonlinetracking/air_port"
+                        target="_blank">World Air Ports</a>
+                </li>
+            </ul>
+            <a class="headerlink {{ Request::is('findus') ? 'active' : '' }}" href="{{ route('findus') }}"><i
+                    class="bi bi-caret-right-fill"></i> Find Us</a>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+<!-- <header class="mobil-section-nav-menu">
     <div class="container">
         <div class="container-logo">
             <a href="{{ url('/') }}">
@@ -105,4 +167,4 @@
             <a class="headerlink {{ Request::is('findus') ? 'active' : '' }}" href="{{ route('findus') }}">Find Us</a>
         </div>
     </div>
-</header>
+</header> -->
