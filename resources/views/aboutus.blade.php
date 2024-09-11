@@ -15,7 +15,7 @@
             <div class="wrapper">
                 <div class="container">
                     <div class="about-content">
-                        <h1>About<span> US</span></h1>
+                        <h1>Who<span> We Are</span></h1>
                         <p class="fade-in delay-1">
                             EXIM Clearing & Forwarding LLC is a leading international
                             freight forwarder, dedicated to providing comprehensive

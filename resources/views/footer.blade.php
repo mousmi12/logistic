@@ -43,9 +43,10 @@
                   </div>
                   <div>
                     <a href="{{ route('findus') }}">
-                      Office 513, 5th Floor, Al Fattan Plaza, Airport Road,
+                      Office 513, Al Fattan Plaza, Garhoud, Dubai.
                       <br />
-                      Garhoud, Dubai Next IBIS Styles Hotel
+                      United Arab Emirates. Next to Ibis Styles Hotel
+                      <br/>                     
                     </a>
                   </div>
                 </li>

@@ -38,6 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
    
   }
   
+  function toggleResource() {
+    const tag = document.querySelector('.list-resource');
+    if (tag.style.display === 'none' || tag.style.display === '') {
+      tag.style.display = 'block';
+    } else {
+      tag.style.display = 'none';
+    }
+  }
 
 
   function maplocation(){
