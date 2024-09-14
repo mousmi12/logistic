@@ -30,4 +30,31 @@
     });
 });
 
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const currentRoute = '{{ Route::currentRouteName() }}';
+    const menuItems = document.querySelectorAll('.nav-links-main .headerlink');
+    
+    menuItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            if (!this.getAttribute('target')) {
+                e.preventDefault();
+                menuItems.forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+                
+                if (this.getAttribute('href') !== '#') {
+                    setTimeout(() => {
+                        window.location.href = this.getAttribute('href');
+                    }, 100);
+                }
+            }
+        });
+        
+        if (item.getAttribute('data-route') === currentRoute) {
+            item.classList.add('active');
+        }
+    });
+});
+
 </script>

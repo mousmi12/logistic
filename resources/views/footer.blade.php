@@ -27,7 +27,65 @@
                 </div>
             </div>
         </div>
+
         <div class="col-md-6 fade-in delay-1">
+          <div class="center-align">
+            <div class="get-in-touch fade-in delay-2">
+              <h1>Get In Touch</h1>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <div>
+                    <a href="{{ route('findus') }}">
+                      <i class="bi bi-geo-alt-fill"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="{{ route('findus') }}">
+                      Office 513, Al Fattan Plaza, Garhoud, Dubai.
+                      <br />
+                      United Arab Emirates. Next to Ibis Styles Hotel
+                      <br/>                     
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="tel:+971 4282 3411">
+                      <i class="bi bi-phone-fill"></i>
+                    </a>
+                  </div>
+                  <div><a href="tel:+971 4282 3411">+971 4282 3411</a></div>
+                </li>
+                <li>
+                  <div>
+                    <a class="mailto" href="mailto:info@exim.ae">
+                      <i class="bi bi-envelope"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a class="mailto" href="mailto:info@exim.ae"
+                      >info@exim.ae</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="www.exim.ae" target="_blank">
+                      <i class="bi bi-globe"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="www.exim.ae" target="_blank">www.exim.ae</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="col-md-6 fade-in delay-1">
             <div class="center-align">
                 <div class="get-in-touch fade-in delay-2">
                     <h1>Get In Touch</h1>
@@ -64,6 +122,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </footer>
