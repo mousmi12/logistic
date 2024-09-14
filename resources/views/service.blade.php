@@ -124,7 +124,7 @@
       </div>
       <div class="cols-image">
         <div class="img-container fade-in delay-4">
-          <img src="{{asset('assets/Images/Services/img-5.jpg')}}" alt="" srcset="" />
+          <img src="{{asset('assets/Images/Services/Services 1.jpg')}}" alt="" srcset="" />
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@
                 </p>
               </div>
             </div>
-            <img class="fade-in delay-11" src="{{asset('assets/Images/Services/img-8.jpg')}}" alt="" srcset="" />
+            <img class="fade-in delay-11" src="{{asset('assets/Images/Services/Services 2.jpg')}}" alt="" srcset="" />
           </div>
           <div class="logo-icon">
             <img class="fade-in delay-12" src="{{asset('assets/Images/Services/cargo.svg')}}" alt="" srcset="" />

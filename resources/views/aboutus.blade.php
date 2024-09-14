@@ -11,7 +11,7 @@
 
     <section>
         <div class="aboutUs">
-            <img src="{{asset('assets/Images/about/Img-1.jpg')}}" alt="" srcset="" />
+            <img src="{{asset('assets/Images/who we are/Who we are 2.jpg')}}" alt="" srcset="" />
             <div class="wrapper">
                 <div class="container">
                     <div class="about-content">
